@@ -7,8 +7,8 @@
     60 -> 10  40  10
     '''
 s = int(input())  
-x = s // 6
-k = (x+x)*2
-print(x,k,x)
+x = s
+k = (s+x)*2
+print(s,k,x)
 
 
