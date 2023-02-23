@@ -11,4 +11,8 @@ s = int(input())
 x = s
 k = (s+x)*2
 print(s,k,x)
+<<<<<<< HEAD
+=======
+
+>>>>>>> 49b7af31e69dc3334e3224f82e29105b4472dbbf
 
