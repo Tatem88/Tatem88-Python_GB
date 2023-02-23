@@ -5,5 +5,6 @@
 n = int(input("Введите число: "))
 i = 0
 for i in range (0,n):
-    print(2**i)
+    if 2**i <= n:
+      print(2**i)
    
