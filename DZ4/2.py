@@ -12,8 +12,16 @@
 import random
 n = int(input("Введите количество кустов: "))
 a = []
-for i in range(0,3):
+for i in range(0,n):
     a.append(random.randint(0, 9))
 print(a)
-summ = a[0] + a[1] + a[2]
-print(summ)
+buff = 0
+max = 0
+index = 0
+for i in range(0, n - 2):
+    buff = a[i] + a[i+1] + a[i+2]
+    if max < buff:
+        max = buff
+        index = i + 1
+print("Подойди к кусту с индексом", index, "и ты соберешь", max, "ягод.")
+
