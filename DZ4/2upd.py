@@ -24,4 +24,3 @@ for i in range(0, n - 2):
         max = buff
         index = i + 1
 print("Подойди к кусту с индексом", index, "и ты соберешь", max, "ягод.")
-
