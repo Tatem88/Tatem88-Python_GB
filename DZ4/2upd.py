@@ -20,7 +20,11 @@ max = 0
 index = 0
 for i in range(0, n - 2):
     buff = a[i] + a[i+1] + a[i+2]
+    buff2 = (a[-2] + a[-1] + a[0])
     if max < buff:
         max = buff
+        index = i + 1
+    if max < buff2:
+        max = buff2
         index = i + 1
 print("Подойди к кусту с индексом", index, "и ты соберешь", max, "ягод.")
