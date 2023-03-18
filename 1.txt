@@ -1,0 +1,5 @@
+Ivanov, Ivan, 111, Description of Ivanov
+Petrov, Peter, 222, description of Petrov
+Vasichkina, Vasilisa, 333, Vasechkina's description
+Pitonov, Anton, 777, can use Python
+Musina, Musya, 555, description of Musya
